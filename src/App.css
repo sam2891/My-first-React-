@@ -1,0 +1,22 @@
+h1 {
+    position: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: grey;
+}
+
+h2 {
+    position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: crimson;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: aqua;
+    position: center;
+
+
+}
