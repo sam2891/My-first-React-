@@ -8,31 +8,45 @@ function App() {
   // eslint-disable-next-line no-unused-vars
   const fruits = ["Apple","Banana","Orange","Mango"]
   const allow = true
+  if (allow) {
+    return (
+      <div className="Sam">
+        <Home title={heading} />
+        <h1>My Fruits</h1>
+        <Array fruits={fruits} />
+  
+        
+         
+  
+  
+        {/*<ul>
+          {    //java script canbe written in HTml with curly brackets 
+  
+          fruits.map((fruits,index)=> (
+          <li key= {index}>{fruits}</li>
+           ))
+           }
+          </ul>*/}
+  
+  
+      </div>
+    );
+    
+  }
+      else{
+        return (
+          <div className="App">
+            <h1>
+              YoU aRe NoT aLlOwEd To ViEw ThIs PaGe BuDdY!!! 
+            </h1>
+          </div>
+        )
+      }
+    
+  }
 
   
 
-  return (
-    <div className="Sam">
-      <Home title={heading} />
-      <h1>My Fruits</h1>
-      <Array fruits={fruits} />
 
-      
-       
-
-
-      {/*<ul>
-        {    //java script canbe written in HTml with curly brackets 
-
-        fruits.map((fruits,index)=> (
-        <li key= {index}>{fruits}</li>
-         ))
-         }
-        </ul>*/}
-
-
-    </div>
-  );
-}
 
 export default App;
