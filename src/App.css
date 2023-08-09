@@ -2,7 +2,7 @@ h1 {
     position: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
-    color: grey;
+    color: rgba(209, 14, 14, 0.932);
 }
 
 h2 {
@@ -20,3 +20,8 @@ p {
 
 
 }
+
+body  {
+    text-align: center;
+}
+
